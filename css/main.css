@@ -1,0 +1,120 @@
+html, body { 
+height: 120%; 
+margin: 12; 
+padding: 0; 
+background-image: url("background.jpeg");
+background-repeat: no-repeat;
+background-position: bottom;
+-webkit-background-size: 1400px 1400px;
+}
+
+.bubbleChart {
+	min-width: 100px;
+	max-width: 400px;
+	height: 330px;
+	margin: 0 auto;
+}
+
+/* use "#" for ids and use "." for classes
+usually an id in unique in one html page*/
+#header {
+    background-color:green;
+    text-align:center;
+    padding:5px;
+}
+
+h1 {
+    color: red;
+    font-style: oblique;
+    font-size: 333%;
+}
+
+#title{
+	font-size: 140%;
+	color:white;
+}
+
+#map{
+	/* here we use absolute layout to find the position for google map
+	you may want to use relative rather than absolute in your own application */
+	position: absolute;
+    /* cover the 70 percent of the page width*/
+    width: 68%;
+    height: 115%;
+}
+
+#sec2{
+	position: absolute;
+	/* define the postiion of information panel */
+	left: 0%;
+	top: 55%;
+}
+
+#position-info{
+	background-color: #edeff1;
+	width: 70%;
+}
+
+
+
+#side-menu{
+	position: absolute;
+	/* define the postiion of information panel */
+	top: 30%;
+	left: 69%;
+    /* cover the 30 percent of the page width*/
+	width: 30%;
+	height: 120%;
+}
+
+#menu-cover{
+	position: absolute;
+	top: 3%;
+	left: 3%;
+}
+
+.menu-line{
+	height: 50px;
+}
+
+#menu-cover {
+	height: 89%;
+	width: 80%;
+	/* define the background color of the information panel */
+	background-color: #edeff1;
+	/* set radius for the ellipse frame */
+    border-radius: 11px;
+    /* add paddings so there would be some blank spaces around the informaiton panel */
+    padding: 24px 23px 20px;
+    /* settings for the font */
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+
+/* there defines every single line in the information panel */
+.menu-line{
+	border-radius: 11px;
+    box-shadow: none;
+    color: #34495e;
+    font-family: "Lato",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.467;
+    padding: 4px 4px;
+}
+
+.button1{
+    height:30px;
+    width:250px;
+	position: absolute;
+	top: 40%;
+	left: 7%;
+}
+
+.button2{
+    height:30px;
+    width:250px;
+	position: absolute;
+	top: 47%;
+	left: 7%;
+}
+
